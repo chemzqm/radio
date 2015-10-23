@@ -27,7 +27,6 @@ describe('radio component', function () {
   it('should radio default className', function () {
     firstEl.className = 'active'
     radio(el)
-    console.log(ul)
     assert.equal(el.className, 'active')
     assert.equal(firstEl.className, '')
   })
